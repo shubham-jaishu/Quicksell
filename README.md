@@ -1,52 +1,132 @@
-# Getting Started with Create React App
+# QuickSell Kanban
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based web application built using Create React App. This project provides an intuitive and responsive user interface, showcasing modern web development practices.
 
-## Available Scripts
+[Live Demo](https://quicksell-liart.vercel.app/)
 
-In the project directory, you can run:
+---
 
-### `yarn start`
+## Overview
+QuickSell is a React application bootstrapped with Create React App. It features:
+- Fast and efficient development environment.
+- Responsive design suitable for both desktop and mobile platforms.
+- A modular and scalable structure for modern web applications.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+- **Development Mode:** Live reloading and linting.
+- **Production Build:** Optimized for performance and size.
+- **TypeScript Support:** Static typing for safer and more reliable code.
+- **Interactive Components:** Built with React and React Icons.
+- **Testing Capabilities:** Integrated with Jest and React Testing Library.
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `yarn build`
+### Frontend
+- **React:** JavaScript library for building user interfaces.
+- **TypeScript:** Enhances development with static typing.
+- **React Icons:** For scalable and customizable icons.
+- **Tailwind CSS:** (if applicable, add specifics here if used in styling).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Hosting
+- Hosted on Vercel: [Live Demo](https://quicksell-liart.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencies
+```json
+{
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
+    "web-vitals": "^2.1.0"
+  }
+}
+```
 
-### `yarn eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js and npm installed.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/quicksell.git
+   ```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Navigate to the project directory:
+   ```bash
+   cd quicksell
+   ```
 
-## Learn More
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5. Open your browser and navigate to:
+   ```
+   http://localhost:3000
+   ```
+
+---
 
 ## Preview
-
 ![Desktop Screenshot 1](./preview/Desktop-1.png)
 ![Desktop Screenshot 2](./preview/Desktop-2.png)
 ![Mobile Screenshot 1](./preview/Mobile-1.png)
+
+---
+
+## Available Scripts
+
+### `npm start`
+Runs the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### `npm test`
+Launches the test runner in interactive watch mode.
+
+### `npm run build`
+Builds the app for production to the `build` folder. Optimizes the build for best performance.
+
+### `npm run eject`
+Ejects the configuration for full control. **Note:** This operation is irreversible.
+
+---
+
+## Learn More
+To learn more about the tools used in this project:
+- [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [React documentation](https://reactjs.org/).
+- [TypeScript documentation](https://www.typescriptlang.org/).
+
+---
+
+## Contribution
+Contributions are welcome! Feel free to fork the repository and submit a pull request.
+
+---
+
+## Contact
+For queries or feedback, please contact [Shubham](mailto:shubhamjaishu@gmail.com).
