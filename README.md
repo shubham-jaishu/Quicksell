@@ -67,12 +67,12 @@ QuickSell is a React application bootstrapped with Create React App. It features
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/quicksell.git
+   git clone https://github.com/shubham-jaishu/Quicksell.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd quicksell
+   cd Quicksell
    ```
 
 3. Install dependencies:
